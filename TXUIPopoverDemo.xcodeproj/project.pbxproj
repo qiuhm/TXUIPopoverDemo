@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D414D4C1188FF56E00EC201B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C0188FF56E00EC201B /* Foundation.framework */; };
+		D414D4C3188FF56E00EC201B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C2188FF56E00EC201B /* CoreGraphics.framework */; };
+		D414D4C5188FF56E00EC201B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C4188FF56E00EC201B /* UIKit.framework */; };
+		D414D4CB188FF56E00EC201B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D414D4C9188FF56E00EC201B /* InfoPlist.strings */; };
+		D414D4CD188FF56E00EC201B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4CC188FF56E00EC201B /* main.m */; };
+		D414D4D1188FF56E00EC201B /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4D0188FF56E00EC201B /* TXAppDelegate.m */; };
+		D414D4D3188FF56E00EC201B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D414D4D2188FF56E00EC201B /* Images.xcassets */; };
+		D414D4DA188FF56E00EC201B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4D9188FF56E00EC201B /* XCTest.framework */; };
+		D414D4DB188FF56E00EC201B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C0188FF56E00EC201B /* Foundation.framework */; };
+		D414D4DC188FF56E00EC201B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C4188FF56E00EC201B /* UIKit.framework */; };
+		D414D4E4188FF56E00EC201B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D414D4E2188FF56E00EC201B /* InfoPlist.strings */; };
+		D414D4E6188FF56E00EC201B /* TXUIPopoverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4E5188FF56E00EC201B /* TXUIPopoverDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D414D4DD188FF56E00EC201B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D414D4B5188FF56E00EC201B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D414D4BC188FF56E00EC201B;
+			remoteInfo = TXUIPopoverDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D414D4BD188FF56E00EC201B /* TXUIPopoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXUIPopoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D414D4C0188FF56E00EC201B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D414D4C2188FF56E00EC201B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D414D4C4188FF56E00EC201B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D414D4C8188FF56E00EC201B /* TXUIPopoverDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUIPopoverDemo-Info.plist"; sourceTree = "<group>"; };
+		D414D4CA188FF56E00EC201B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D414D4CC188FF56E00EC201B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D414D4CE188FF56E00EC201B /* TXUIPopoverDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TXUIPopoverDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D414D4CF188FF56E00EC201B /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		D414D4D0188FF56E00EC201B /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
+		D414D4D2188FF56E00EC201B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D414D4D8188FF56E00EC201B /* TXUIPopoverDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXUIPopoverDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D414D4D9188FF56E00EC201B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D414D4E1188FF56E00EC201B /* TXUIPopoverDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUIPopoverDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D414D4E3188FF56E00EC201B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D414D4E5188FF56E00EC201B /* TXUIPopoverDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXUIPopoverDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D414D4BA188FF56E00EC201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4C3188FF56E00EC201B /* CoreGraphics.framework in Frameworks */,
+				D414D4C5188FF56E00EC201B /* UIKit.framework in Frameworks */,
+				D414D4C1188FF56E00EC201B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D414D4D5188FF56E00EC201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4DA188FF56E00EC201B /* XCTest.framework in Frameworks */,
+				D414D4DC188FF56E00EC201B /* UIKit.framework in Frameworks */,
+				D414D4DB188FF56E00EC201B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D414D4B4188FF56E00EC201B = {
+			isa = PBXGroup;
+			children = (
+				D414D4C6188FF56E00EC201B /* TXUIPopoverDemo */,
+				D414D4DF188FF56E00EC201B /* TXUIPopoverDemoTests */,
+				D414D4BF188FF56E00EC201B /* Frameworks */,
+				D414D4BE188FF56E00EC201B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D414D4BE188FF56E00EC201B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4BD188FF56E00EC201B /* TXUIPopoverDemo.app */,
+				D414D4D8188FF56E00EC201B /* TXUIPopoverDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D414D4BF188FF56E00EC201B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4C0188FF56E00EC201B /* Foundation.framework */,
+				D414D4C2188FF56E00EC201B /* CoreGraphics.framework */,
+				D414D4C4188FF56E00EC201B /* UIKit.framework */,
+				D414D4D9188FF56E00EC201B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D414D4C6188FF56E00EC201B /* TXUIPopoverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4CF188FF56E00EC201B /* TXAppDelegate.h */,
+				D414D4D0188FF56E00EC201B /* TXAppDelegate.m */,
+				D414D4D2188FF56E00EC201B /* Images.xcassets */,
+				D414D4C7188FF56E00EC201B /* Supporting Files */,
+			);
+			path = TXUIPopoverDemo;
+			sourceTree = "<group>";
+		};
+		D414D4C7188FF56E00EC201B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4C8188FF56E00EC201B /* TXUIPopoverDemo-Info.plist */,
+				D414D4C9188FF56E00EC201B /* InfoPlist.strings */,
+				D414D4CC188FF56E00EC201B /* main.m */,
+				D414D4CE188FF56E00EC201B /* TXUIPopoverDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D414D4DF188FF56E00EC201B /* TXUIPopoverDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4E5188FF56E00EC201B /* TXUIPopoverDemoTests.m */,
+				D414D4E0188FF56E00EC201B /* Supporting Files */,
+			);
+			path = TXUIPopoverDemoTests;
+			sourceTree = "<group>";
+		};
+		D414D4E0188FF56E00EC201B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4E1188FF56E00EC201B /* TXUIPopoverDemoTests-Info.plist */,
+				D414D4E2188FF56E00EC201B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D414D4BC188FF56E00EC201B /* TXUIPopoverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D414D4E9188FF56E00EC201B /* Build configuration list for PBXNativeTarget "TXUIPopoverDemo" */;
+			buildPhases = (
+				D414D4B9188FF56E00EC201B /* Sources */,
+				D414D4BA188FF56E00EC201B /* Frameworks */,
+				D414D4BB188FF56E00EC201B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXUIPopoverDemo;
+			productName = TXUIPopoverDemo;
+			productReference = D414D4BD188FF56E00EC201B /* TXUIPopoverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D414D4D7188FF56E00EC201B /* TXUIPopoverDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D414D4EC188FF56E00EC201B /* Build configuration list for PBXNativeTarget "TXUIPopoverDemoTests" */;
+			buildPhases = (
+				D414D4D4188FF56E00EC201B /* Sources */,
+				D414D4D5188FF56E00EC201B /* Frameworks */,
+				D414D4D6188FF56E00EC201B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D414D4DE188FF56E00EC201B /* PBXTargetDependency */,
+			);
+			name = TXUIPopoverDemoTests;
+			productName = TXUIPopoverDemoTests;
+			productReference = D414D4D8188FF56E00EC201B /* TXUIPopoverDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D414D4B5188FF56E00EC201B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tingxuan.qhm;
+				TargetAttributes = {
+					D414D4D7188FF56E00EC201B = {
+						TestTargetID = D414D4BC188FF56E00EC201B;
+					};
+				};
+			};
+			buildConfigurationList = D414D4B8188FF56E00EC201B /* Build configuration list for PBXProject "TXUIPopoverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D414D4B4188FF56E00EC201B;
+			productRefGroup = D414D4BE188FF56E00EC201B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D414D4BC188FF56E00EC201B /* TXUIPopoverDemo */,
+				D414D4D7188FF56E00EC201B /* TXUIPopoverDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D414D4BB188FF56E00EC201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4CB188FF56E00EC201B /* InfoPlist.strings in Resources */,
+				D414D4D3188FF56E00EC201B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D414D4D6188FF56E00EC201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4E4188FF56E00EC201B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D414D4B9188FF56E00EC201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4D1188FF56E00EC201B /* TXAppDelegate.m in Sources */,
+				D414D4CD188FF56E00EC201B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D414D4D4188FF56E00EC201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D4E6188FF56E00EC201B /* TXUIPopoverDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D414D4DE188FF56E00EC201B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D414D4BC188FF56E00EC201B /* TXUIPopoverDemo */;
+			targetProxy = D414D4DD188FF56E00EC201B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D414D4C9188FF56E00EC201B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D414D4CA188FF56E00EC201B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D414D4E2188FF56E00EC201B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D414D4E3188FF56E00EC201B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D414D4E7188FF56E00EC201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D414D4E8188FF56E00EC201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D414D4EA188FF56E00EC201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUIPopoverDemo/TXUIPopoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUIPopoverDemo/TXUIPopoverDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D414D4EB188FF56E00EC201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUIPopoverDemo/TXUIPopoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUIPopoverDemo/TXUIPopoverDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D414D4ED188FF56E00EC201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXUIPopoverDemo.app/TXUIPopoverDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUIPopoverDemo/TXUIPopoverDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TXUIPopoverDemoTests/TXUIPopoverDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D414D4EE188FF56E00EC201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXUIPopoverDemo.app/TXUIPopoverDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXUIPopoverDemo/TXUIPopoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "TXUIPopoverDemoTests/TXUIPopoverDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D414D4B8188FF56E00EC201B /* Build configuration list for PBXProject "TXUIPopoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414D4E7188FF56E00EC201B /* Debug */,
+				D414D4E8188FF56E00EC201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D414D4E9188FF56E00EC201B /* Build configuration list for PBXNativeTarget "TXUIPopoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414D4EA188FF56E00EC201B /* Debug */,
+				D414D4EB188FF56E00EC201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D414D4EC188FF56E00EC201B /* Build configuration list for PBXNativeTarget "TXUIPopoverDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414D4ED188FF56E00EC201B /* Debug */,
+				D414D4EE188FF56E00EC201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D414D4B5188FF56E00EC201B /* Project object */;
+}
