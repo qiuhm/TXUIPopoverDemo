@@ -19,6 +19,8 @@
 		D414D4DC188FF56E00EC201B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D414D4C4188FF56E00EC201B /* UIKit.framework */; };
 		D414D4E4188FF56E00EC201B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D414D4E2188FF56E00EC201B /* InfoPlist.strings */; };
 		D414D4E6188FF56E00EC201B /* TXUIPopoverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4E5188FF56E00EC201B /* TXUIPopoverDemoTests.m */; };
+		D414D4F2188FF6A700EC201B /* TXContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4F1188FF6A700EC201B /* TXContentViewController.m */; };
+		D414D4F5188FF76700EC201B /* TXContailnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D414D4F4188FF76700EC201B /* TXContailnerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		D414D4E1188FF56E00EC201B /* TXUIPopoverDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUIPopoverDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D414D4E3188FF56E00EC201B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D414D4E5188FF56E00EC201B /* TXUIPopoverDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXUIPopoverDemoTests.m; sourceTree = "<group>"; };
+		D414D4F0188FF6A700EC201B /* TXContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXContentViewController.h; sourceTree = "<group>"; };
+		D414D4F1188FF6A700EC201B /* TXContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXContentViewController.m; sourceTree = "<group>"; };
+		D414D4F3188FF76700EC201B /* TXContailnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXContailnerViewController.h; sourceTree = "<group>"; };
+		D414D4F4188FF76700EC201B /* TXContailnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXContailnerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		D414D4C6188FF56E00EC201B /* TXUIPopoverDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D414D4EF188FF5DB00EC201B /* Controller */,
 				D414D4CF188FF56E00EC201B /* TXAppDelegate.h */,
 				D414D4D0188FF56E00EC201B /* TXAppDelegate.m */,
 				D414D4D2188FF56E00EC201B /* Images.xcassets */,
@@ -142,6 +149,17 @@
 				D414D4E2188FF56E00EC201B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D414D4EF188FF5DB00EC201B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D414D4F0188FF6A700EC201B /* TXContentViewController.h */,
+				D414D4F1188FF6A700EC201B /* TXContentViewController.m */,
+				D414D4F3188FF76700EC201B /* TXContailnerViewController.h */,
+				D414D4F4188FF76700EC201B /* TXContailnerViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D414D4D1188FF56E00EC201B /* TXAppDelegate.m in Sources */,
+				D414D4F5188FF76700EC201B /* TXContailnerViewController.m in Sources */,
+				D414D4F2188FF6A700EC201B /* TXContentViewController.m in Sources */,
 				D414D4CD188FF56E00EC201B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
